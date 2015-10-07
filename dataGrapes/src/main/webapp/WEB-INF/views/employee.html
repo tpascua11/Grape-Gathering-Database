@@ -1,0 +1,14 @@
+<p class="lead">
+Employee View
+{{test}}
+</p>
+<button ng-click="changeMessage()">  buttonTest </button>
+
+<input ng-model="message">   </input>
+
+<div ng-repeat="item in Employee">
+  {{item.name}}
+  <span ng-if="item.id == 3"> ID=3 </span>
+</div>
+
+
